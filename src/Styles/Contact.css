@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f4f7fc;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container for Contact Page */
+  .contact-container {
+    max-width: 900px;
+    margin: 50px auto;
+    margin-top: 100px;
+    padding: 40px;
+    background: linear-gradient(135deg, #5f27cd, #4e54c8);
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  .contact-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    transition: all 1s;
+  }
+  .contact-container h1:hover{
+    transform: scale(1.06);
+  }
+  
+  /* Contact Info Section */
+  .contact-info {
+    margin-top: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-info div {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+  }
+  
+  .contact-info b {
+    color: #f0f4f7;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  /* Hover Effects on Contact Information */
+  .contact-info div:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+    background: skyblue;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .contact-container {
+      padding: 30px;
+      margin: 20px;
+      margin-top: 210px;
+    }
+  
+    .contact-container h1 {
+      font-size: 2rem;
+    }
+  
+    .contact-info {
+      padding: 15px;
+    }
+  
+    .contact-info div {
+      font-size: 1rem;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .contact-container {
+      padding: 20px;
+    }
+  
+    .contact-container h1 {
+      font-size: 1.5rem;
+    }
+  
+    .contact-info {
+      padding: 10px;
+    }
+  
+    .contact-info div {
+      font-size: 0.9rem;
+    }
+  }
+  

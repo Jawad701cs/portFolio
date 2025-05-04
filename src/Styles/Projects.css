@@ -1,0 +1,138 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container Styling */
+  .projects-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: linear-gradient(to right, #f0f4ff, #e4ecf7);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    color: #333;
+    margin-top: 100px;
+  }
+  
+  /* Heading Styles */
+  .projects-container h1 {
+    font-size: 2.5rem;
+    color: #2a2a72;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .projects-container h2 {
+    font-size: 2rem;
+    color: #4e54c8;
+    margin-bottom: 10px;
+    transition: all 1s;
+  }
+  h2:hover{
+    transform: scale(1.03);
+  }
+  
+  .projects-container h3 {
+    font-size: 1.5rem;
+    color: #444;
+    border-left: 5px solid #4e54c8;
+    padding-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .projects-container div {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-top: 10px;
+  }
+  
+  .projects-container .project-details {
+    background: #ffffffa6;
+    border-left: 3px solid #4e54c8;
+    border-radius: 6px;
+    padding: 10px;
+    margin-top: 15px;
+    transition: all 1s;
+  }
+  .project-details:hover{
+    transform: scale(1.03);
+  }
+  
+  /* Link Styling */
+  a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    transform: scale(1.03);
+  }
+  
+  /* Video Styling */
+  video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    border-radius: 8px; /* Ensure videos have the same rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+  }
+  
+  /* ✅ Responsive Design */
+  @media screen and (max-width: 768px) {
+    .projects-container {
+      padding: 20px;
+      margin: 20px;
+      margin-top: 150px;
+    }
+  
+    .projects-container h1 {
+      font-size: 2rem;
+    }
+  
+    .projects-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .projects-container h3 {
+      font-size: 1.2rem;
+    }
+  
+    .projects-container div {
+      font-size: 0.95rem;
+    }
+  
+    .projects-container .video-wrapper {
+      width: 100%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .projects-container {
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    .projects-container h1 {
+      font-size: 1.5rem;
+    }
+  
+    .projects-container h2 {
+      font-size: 1.25rem;
+    }
+  
+    .projects-container h3 {
+      font-size: 1rem;
+    }
+  
+    .projects-container div {
+      font-size: 0.9rem;
+    }
+  
+    video {
+      width: 100%;
+    }
+  }
+  

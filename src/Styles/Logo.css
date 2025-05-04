@@ -1,0 +1,46 @@
+.containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+img{
+    border-radius: 50%;
+    animation:jawad 2s;
+}
+#name{
+    font-size: 70px;
+    color: blueviolet;
+    animation: name 2s;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+#skill{
+    font-size: 1.5rem;
+    color: #4e54c8;
+    text-align: center;
+    margin-top: 10px;
+    font-style: italic;
+    animation: skil 2s;
+}
+@keyframes jawad{
+     from{
+        transform: scale(0.5);
+     }
+     to{
+        transform: scale(1);
+     }
+    
+}
+@keyframes name{
+    from{
+        transform: rotate(50deg);
+    }
+     
+}
+
+@keyframes skil{
+    from{
+        transform: rotate(-50deg);
+    }
+}
